@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/hr_app_development
+    username: hr_app
+    password: hr_app
+  jpa:
+    hibernate.ddl-auto: update
+    show_sql: false
